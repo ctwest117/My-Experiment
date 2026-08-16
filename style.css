@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "StarJedi";
+    src: url("recources/star_jedi/starjedi/Starjedi.ttf") format("truetype");
+}
+
+body {
+    background-image: url(recources/space.avif);
+    background-size: cover;
+}
+
+#orbit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vmin;
+    padding: auto 20vw;
+    height: 75vh;
+    font-family: Star;
+}
+
+.planet {
+    border-radius: 50%;
+    height: 10vmin;
+    width: 10vmin;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    color: transparent;
+    text-decoration: none;
+    font-family: "StarJedi", 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2vmin;
+}
+
+.planet:hover {
+    border-color: white;
+    color: #FFEF06;
+}
+
+#mercury {
+    background-image: url(recources/mercuryspin.gif);
+    background-size: 215%;
+    background-position: center;
+    font-size: 1.5vmin;
+}
+
+#venus {
+    background-image: url(recources/venusspin.gif);
+    background-size: 156%;
+    background-position: center;
+}
+
+#earth {
+    background-image: url(recources/earthspin.gif);
+    background-size: 115%;
+    background-position: center;
+}
+
+
+#mars {
+    background-image: url(recources/Spinning_Mars.gif);
+    background-size: 155%;
+    background-position: center;
+    font-size: 2.5vmin;
+}
