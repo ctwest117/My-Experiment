@@ -15,7 +15,7 @@ body {
     gap: 2vmin;
     padding: auto 20vw;
     height: 75vh;
-    font-family: Star;
+    font-family: StarJedi;
 }
 
 .planet {
@@ -54,7 +54,7 @@ body {
 
 #earth {
     background-image: url(recources/earthspin.gif);
-    background-size: 115%;
+    background-size: 125%;
     background-position: center;
 }
 
@@ -64,4 +64,33 @@ body {
     background-size: 155%;
     background-position: center;
     font-size: 2.5vmin;
+}
+
+#jupiter {
+    background-image: url(recources/jupiterspin.gif);
+    background-size: 155%;
+    background-position: center;
+    font-size: 2vmin;
+}
+
+#saturn {
+    background-image: url(recources/saturnspin.gif);
+    background-size: 248%;
+    background-position: center;
+    font-size: 2vmin;
+    z-index: 1;
+}
+
+#uranus {
+    background-image: url(recources/uranusspin.gif);
+    background-size: 268%;
+    background-position: center;
+    font-size: 2vmin;
+}
+
+#neptune {
+    background-image: url(recources/neptunespin.gif);
+    background-size: 135%;
+    background-position: center;
+    font-size: 2vmin;
 }
